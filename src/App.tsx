@@ -30,6 +30,9 @@ function App() {
         {/* Hero Section */}
         <Hero />
 
+        {/* Special Offers Section - Top Priority */}
+        <SpecialOffers />
+
         {/* Benefits Strip (Implicit in Technology de Ponta screenshot) */}
         <section className="overflow-hidden bg-slate-100 py-12 dark:bg-slate-900">
           <div className="container-custom">
@@ -183,8 +186,8 @@ function App() {
         />
 
 
-        {/* Special Offers */}
-        <SpecialOffers />
+
+        {/* Benefits Strip (Implicit in Technology de Ponta screenshot) */}
       </main>
 
       <Footer />

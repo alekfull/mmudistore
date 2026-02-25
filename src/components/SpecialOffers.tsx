@@ -26,7 +26,7 @@ const SpecialOffers: React.FC = () => {
       name: "Kit Premium",
       description: "3 Camisetas ou Regatas Premium",
       oldPrice: "180,00",
-      newPrice: "150,00",
+      newPrice: "100,00",
       badge: "Qualidade",
       color: "from-orange-500 to-red-600",
     },

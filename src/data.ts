@@ -26,13 +26,8 @@ export const dryfitPremiumProducts = [
   { id: 13, image: "/images/products/dryfitpremium/IMG-20260219-WA0164.jpg" },
   { id: 14, image: "/images/products/dryfitpremium/IMG-20260219-WA0166.jpg" },
   { id: 15, image: "/images/products/dryfitpremium/IMG-20260219-WA0168.jpg" },
-  { id: 16, image: "/images/products/dryfitpremium/IMG-20260219-WA0178.jpg" },
-  { id: 17, image: "/images/products/dryfitpremium/IMG-20260219-WA0180.jpg" },
-  { id: 18, image: "/images/products/dryfitpremium/IMG-20260219-WA0182.jpg" },
-  { id: 19, image: "/images/products/dryfitpremium/IMG-20260219-WA0184.jpg" },
-  { id: 20, image: "/images/products/dryfitpremium/IMG-20260219-WA0186.jpg" },
-  { id: 21, image: "/images/products/dryfitpremium/IMG-20260219-WA0188.jpg" },
 ];
+
 
 export const regatasProducts = [
   { id: 1, image: "/images/products/regatas/IMG-20260219-WA0122.jpg" },
