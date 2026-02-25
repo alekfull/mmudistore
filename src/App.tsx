@@ -5,7 +5,18 @@ import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
 import ProductSlider from "./components/ProductSlider";
 import SpecialOffers from "./components/SpecialOffers";
-import { dryfitProducts, dryfitrProducts, shortsProducts } from "./data";
+import {
+  dryfitProducts,
+  dryfitPremiumProducts,
+  regatasProducts,
+  regatasPremiumProducts,
+  shortsProducts,
+  shortsDuploProducts,
+  shortsImportadoProducts,
+  shortsPremiumProducts,
+  shortsTactelProducts,
+  dryfitTermicaProducts,
+} from "./data";
 import { useTheme } from "./hooks/useTheme";
 
 function App() {
@@ -18,6 +29,9 @@ function App() {
       <main>
         {/* Hero Section */}
         <Hero />
+
+        {/* Special Offers Section - Top Priority */}
+        <SpecialOffers />
 
         {/* Benefits Strip (Implicit in Technology de Ponta screenshot) */}
         <section className="overflow-hidden bg-slate-100 py-12 dark:bg-slate-900">
@@ -59,41 +73,121 @@ function App() {
           </div>
         </section>
 
-        {/* Camisetas Section */}
+        {/* Camisetas Sections */}
         <ProductSlider
           id="dryfit"
           title="Camisetas Dryfit"
           subtitle="Alta performance com tecido premium, acabamento superior e design exclusivo."
-          badge="Linha Premium"
+          badge="Linha Standard"
           products={dryfitProducts}
-          price="60,00"
-          kitPrice="150,00"
+          price="30,00"
+          kitPrice="100,00"
+          kitItems={4}
         />
 
-        {/* Regatas Section */}
+        <ProductSlider
+          id="dryfit-premium"
+          title="Camisetas Dryfit Premium"
+          subtitle="Qualidade excepcional com tecnologia de ponta para máximo desempenho."
+          badge="Linha Premium"
+          products={dryfitPremiumProducts}
+          price="60,00"
+          kitPrice="150,00"
+          kitItems={3}
+        />
+
+        <ProductSlider
+          id="dryfit-termica"
+          title="Camisetas Dryfit Térmicas"
+          subtitle="Conforto térmico absoluto e tecnologia para regulação de temperatura."
+          badge="Linha Térmica"
+          products={dryfitTermicaProducts}
+          price="60,00"
+          kitPrice="150,00"
+          kitItems={3}
+        />
+
+        {/* Regatas Sections */}
         <ProductSlider
           id="regatas"
           title="Regatas Dryfit"
-          subtitle="Ideais para treinos intensos, oferecendo máxima liberdade de movimento e compressão."
-          badge="Linha Térmica"
-          products={dryfitrProducts}
-          price="50,00"
-          kitPrice="130,00"
+          subtitle="Ideais para treinos intensos, oferecendo máxima liberdade de movimento."
+          badge="Linha Standard"
+          products={regatasProducts}
+          price="30,00"
+          kitPrice="100,00"
+          kitItems={4}
         />
 
-        {/* Shorts Section */}
+        <ProductSlider
+          id="regatas-premium"
+          title="Regatas Dryfit Premium"
+          subtitle="Acabamento superior e compressão ideal para o seu treino."
+          badge="Linha Premium"
+          products={regatasPremiumProducts}
+          price="60,00"
+          kitPrice="150,00"
+          kitItems={3}
+        />
+
+        {/* Shorts Sections */}
         <ProductSlider
           id="shorts"
           title="Bermudas & Shorts"
-          subtitle="Bermudas Dry-Fit com tecido respirável e ajuste perfeito para qualquer atividade."
+          subtitle="Bermudas Dry-Fit com tecido respirável e ajuste perfeito."
           badge="Destaque"
           products={shortsProducts}
-          price="60,00"
-          kitPrice="150,00"
+          price="45,00"
+          kitPrice="100,00"
+          kitItems={3}
         />
 
-        {/* Special Offers */}
-        <SpecialOffers />
+        <ProductSlider
+          id="shorts-duplo"
+          title="Shorts Duplo"
+          subtitle="Funcionalidade e conforto com camada dupla para maior suporte."
+          badge="Performance"
+          products={shortsDuploProducts}
+          price="70,00"
+          kitPrice="120,00"
+          kitItems={2}
+        />
+
+        <ProductSlider
+          id="shorts-importado"
+          title="Shorts Importado"
+          subtitle="Qualidade internacional com design exclusivo e durabilidade."
+          badge="Importado"
+          products={shortsImportadoProducts}
+          price="80,00"
+          kitPrice=""
+        />
+
+        <ProductSlider
+          id="shorts-premium"
+          title="Shorts Premium"
+          subtitle="O ápice do conforto e estilo para suas atividades físicas."
+          badge="Linha Premium"
+          products={shortsPremiumProducts}
+          price="60,00"
+          kitPrice="165,00"
+          kitItems={3}
+        />
+
+        <ProductSlider
+          id="shorts-tactel"
+          title="Shorts Tactel"
+          subtitle="Tecido leve e secagem ultra-rápida, perfeito para qualquer modalidade."
+          badge="Frescão"
+          products={shortsTactelProducts}
+          price="45,00"
+          kitPrice="125,00"
+          kitItems={3}
+        />
+
+
+
+        {/* Benefits Strip (Implicit in Technology de Ponta screenshot) */}
       </main>
 
       <Footer />

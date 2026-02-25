@@ -18,8 +18,21 @@ const Navbar: React.FC<NavbarProps> = ({ theme, toggleTheme }) => {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
+  const scrollToSection = (e: React.MouseEvent<HTMLAnchorElement>, href: string) => {
+    if (href.startsWith("#")) {
+      e.preventDefault();
+      const targetId = href.replace("#", "");
+      const elem = document.getElementById(targetId);
+      if (elem) {
+        elem.scrollIntoView({ behavior: "smooth" });
+        setIsOpen(false); // Close mobile menu if open
+      }
+    }
+  };
+
   const navLinks = [
     { name: "Camisetas", href: "#dryfit" },
+    { name: "Térmicas", href: "#dryfit-termica" },
     { name: "Regatas", href: "#regatas" },
     { name: "Bermudas", href: "#shorts" },
     { name: "Ofertas", href: "#ofertas" },
@@ -54,6 +67,7 @@ const Navbar: React.FC<NavbarProps> = ({ theme, toggleTheme }) => {
             <a
               key={link.name}
               href={link.href}
+              onClick={(e) => scrollToSection(e, link.href)}
               className="font-medium text-slate-600 transition-colors hover:text-cyan-500 dark:text-slate-300 dark:hover:text-cyan-400"
             >
               {link.name}
@@ -109,12 +123,13 @@ const Navbar: React.FC<NavbarProps> = ({ theme, toggleTheme }) => {
             <a
               key={link.name}
               href={link.href}
-              onClick={() => setIsOpen(false)}
+              onClick={(e) => scrollToSection(e, link.href)}
               className="text-lg font-medium text-slate-700 dark:text-slate-200"
             >
               {link.name}
             </a>
           ))}
+
           <a
             href="https://wa.me/5534999890980"
             target="_blank"

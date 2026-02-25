@@ -5,29 +5,32 @@ const SpecialOffers: React.FC = () => {
   const offers = [
     {
       id: 1,
-      name: "Combo Treino Hardcore",
-      description: "3 Camisetas Dryfit + 2 Bermudas",
-      oldPrice: "300,00",
-      newPrice: "249,90",
-      badge: "Bestseller",
+      name: "Pack Econômico 1",
+      description: "3 Bermudas Dryfit",
+      oldPrice: "135,00",
+      newPrice: "100,00",
+      image: "/images/products/shorts/IMG-20260219-WA0005.jpg",
+      badge: "Mais Vendido",
       color: "from-cyan-500 to-blue-600",
     },
     {
       id: 2,
-      name: "Kit Pro Runner",
-      description: "2 Regatas Dryfit + 1 Bermuda Térmica",
-      oldPrice: "210,00",
-      newPrice: "179,90",
+      name: "Pack Econômico 2",
+      description: "4 Camisetas ou Regatas Dryfit",
+      oldPrice: "120,00",
+      newPrice: "100,00",
+      image: "/images/products/dryfit/IMG-20260219-WA0108.jpg",
       badge: "Economia",
       color: "from-emerald-500 to-teal-600",
     },
     {
       id: 3,
-      name: "Pack Econômico",
-      description: "5 Camisetas Básicas Dryfit",
-      oldPrice: "300,00",
-      newPrice: "220,00",
-      badge: "Imperdível",
+      name: "Kit Premium",
+      description: "3 Camisetas ou Regatas Premium",
+      oldPrice: "180,00",
+      newPrice: "100,00",
+      image: "/images/products/dryfitpremium/IMG-20260219-WA0140.jpg",
+      badge: "Qualidade",
       color: "from-orange-500 to-red-600",
     },
   ];
@@ -61,42 +64,51 @@ const SpecialOffers: React.FC = () => {
           {offers.map((offer) => (
             <div
               key={offer.id}
-              className="group relative flex flex-col overflow-hidden rounded-[2.5rem] border border-slate-200 bg-white p-6 shadow-sm transition-all hover:-translate-y-2 hover:shadow-2xl sm:p-8 dark:border-slate-800 dark:bg-slate-950"
+              className="group relative flex min-h-[450px] flex-col overflow-hidden rounded-[2.5rem] border border-slate-200 bg-white p-6 shadow-sm transition-all hover:-translate-y-2 hover:shadow-2xl sm:p-8 dark:border-slate-800 dark:bg-slate-950"
             >
-              {/* Colored accent */}
-              <div
-                className={`absolute top-0 left-0 h-full w-2 bg-gradient-to-b ${offer.color}`}
-              />
-
-              <span className="mb-4 inline-block rounded-full border border-slate-200 bg-slate-100 px-3 py-1 text-[10px] font-black tracking-widest text-slate-600 uppercase dark:border-slate-800 dark:bg-slate-900 dark:text-slate-400">
-                {offer.badge}
-              </span>
-
-              <h3 className="mb-2 text-2xl leading-tight font-black text-slate-900 dark:text-white">
-                {offer.name}
-              </h3>
-              <p className="mb-8 font-medium text-slate-500 dark:text-slate-400">
-                {offer.description}
-              </p>
-
-              <div className="mb-8 flex flex-col">
-                <span className="text-sm text-slate-400 line-through dark:text-slate-600">
-                  R$ {offer.oldPrice}
-                </span>
-                <span className="text-4xl font-black text-slate-900 dark:text-white">
-                  R$ {offer.newPrice}
-                </span>
+              {/* Background Image with Hero Effect */}
+              <div className="absolute inset-0 z-0 overflow-hidden">
+                <div className="absolute inset-0 z-10 bg-gradient-to-t from-slate-950 via-slate-950/70 to-transparent" />
+                <img
+                  src={offer.image}
+                  alt={offer.name}
+                  className="animate-pulse-slow h-full w-full scale-110 object-cover opacity-50 transition-transform duration-1000 group-hover:scale-125"
+                />
               </div>
 
-              <a
-                href="https://wa.me/5534999890980"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="mt-auto flex w-full cursor-pointer items-center justify-center gap-2 rounded-2xl bg-slate-900 py-4 font-bold text-white transition-all group-hover:bg-cyan-500 group-hover:text-white hover:scale-[1.02] dark:bg-white dark:text-black"
-              >
-                <MdShoppingBag size={20} />
-                Quero este Kit
-              </a>
+              {/* Content */}
+              <div className="relative z-20 flex h-full flex-col">
+                <span className="mb-4 self-start rounded-full border border-cyan-400/30 bg-cyan-500 px-3 py-1 text-[10px] font-black tracking-widest text-white shadow-lg shadow-cyan-500/20 uppercase">
+                  {offer.badge}
+                </span>
+
+                <h3 className="mb-2 text-3xl leading-tight font-black text-white drop-shadow-md">
+                  {offer.name}
+                </h3>
+                <p className="mb-8 font-medium text-slate-200 drop-shadow-sm">
+                  {offer.description}
+                </p>
+
+                <div className="mt-auto flex flex-col">
+                  <span className="text-sm font-bold text-cyan-400/80 line-through">
+                    R$ {offer.oldPrice}
+                  </span>
+                  <span className="text-5xl font-black text-white drop-shadow-2xl">
+                    R$ {offer.newPrice}
+                  </span>
+                </div>
+
+                <a
+                  href="https://wa.me/5534999890980"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="mt-8 flex w-full cursor-pointer items-center justify-center gap-2 rounded-2xl bg-cyan-500 py-4 font-bold text-white shadow-xl shadow-cyan-500/30 transition-all hover:scale-[1.05] hover:bg-cyan-600 active:scale-95"
+                >
+                  <MdShoppingBag size={24} />
+                  Quero este Kit
+                </a>
+              </div>
+
             </div>
           ))}
         </div>
@@ -104,5 +116,6 @@ const SpecialOffers: React.FC = () => {
     </section>
   );
 };
+
 
 export default SpecialOffers;
