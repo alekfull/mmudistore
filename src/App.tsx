@@ -181,7 +181,7 @@ function App() {
           badge="Frescão"
           products={shortsTactelProducts}
           price="45,00"
-          kitPrice="125,00"
+          kitPrice="120,00"
           kitItems={3}
         />
 
