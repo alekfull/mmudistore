@@ -129,7 +129,7 @@ const Footer: React.FC = () => {
               <li className="flex items-start gap-3">
                 <FaMapMarkerAlt className="mt-1 shrink-0 text-cyan-500" />
                 <a
-                  href="https://www.google.com/maps/search/?api=1&query=Rua+Universal+81+Jardim+Brasília+Uberlândia"
+                  href="https://www.google.com/maps/search/mudistore/@-18.9062212,-48.2885524,13.25z?entry=ttu&g_ep=EgoyMDI2MDIyMi4wIKXMDSoASAFQAw%3D%3D"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-slate-600 transition-colors hover:text-cyan-500 dark:text-slate-400"

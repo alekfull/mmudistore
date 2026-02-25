@@ -68,32 +68,32 @@ const SpecialOffers: React.FC = () => {
             >
               {/* Background Image with Hero Effect */}
               <div className="absolute inset-0 z-0 overflow-hidden">
-                <div className="absolute inset-0 z-10 bg-gradient-to-t from-slate-950 via-slate-950/40 to-transparent" />
+                <div className="absolute inset-0 z-10 bg-gradient-to-t from-slate-950 via-slate-950/70 to-transparent" />
                 <img
                   src={offer.image}
                   alt={offer.name}
-                  className="animate-pulse-slow h-full w-full scale-110 object-cover opacity-60 transition-transform duration-700 group-hover:scale-125"
+                  className="animate-pulse-slow h-full w-full scale-110 object-cover opacity-50 transition-transform duration-1000 group-hover:scale-125"
                 />
               </div>
 
               {/* Content */}
               <div className="relative z-20 flex h-full flex-col">
-                <span className="mb-4 self-start rounded-full border border-white/20 bg-white/10 px-3 py-1 text-[10px] font-black tracking-widest text-white backdrop-blur-md uppercase">
+                <span className="mb-4 self-start rounded-full border border-cyan-400/30 bg-cyan-500 px-3 py-1 text-[10px] font-black tracking-widest text-white shadow-lg shadow-cyan-500/20 uppercase">
                   {offer.badge}
                 </span>
 
-                <h3 className="mb-2 text-2xl leading-tight font-black text-white decoration-cyan-500/50 group-hover:underline">
+                <h3 className="mb-2 text-3xl leading-tight font-black text-white drop-shadow-md">
                   {offer.name}
                 </h3>
-                <p className="mb-8 font-medium text-slate-300">
+                <p className="mb-8 font-medium text-slate-200 drop-shadow-sm">
                   {offer.description}
                 </p>
 
                 <div className="mt-auto flex flex-col">
-                  <span className="text-sm text-slate-400 line-through">
+                  <span className="text-sm font-bold text-cyan-400/80 line-through">
                     R$ {offer.oldPrice}
                   </span>
-                  <span className="text-4xl font-black text-white drop-shadow-lg">
+                  <span className="text-5xl font-black text-white drop-shadow-2xl">
                     R$ {offer.newPrice}
                   </span>
                 </div>
@@ -102,12 +102,13 @@ const SpecialOffers: React.FC = () => {
                   href="https://wa.me/5534999890980"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="mt-6 flex w-full cursor-pointer items-center justify-center gap-2 rounded-2xl bg-cyan-500 py-4 font-bold text-white shadow-lg shadow-cyan-500/20 transition-all hover:scale-[1.02] hover:bg-cyan-600"
+                  className="mt-8 flex w-full cursor-pointer items-center justify-center gap-2 rounded-2xl bg-cyan-500 py-4 font-bold text-white shadow-xl shadow-cyan-500/30 transition-all hover:scale-[1.05] hover:bg-cyan-600 active:scale-95"
                 >
-                  <MdShoppingBag size={20} />
+                  <MdShoppingBag size={24} />
                   Quero este Kit
                 </a>
               </div>
+
             </div>
           ))}
         </div>
