@@ -20,11 +20,13 @@ const Navbar: React.FC<NavbarProps> = ({ theme, toggleTheme }) => {
 
   const navLinks = [
     { name: "Camisetas", href: "#dryfit" },
+    { name: "Térmicas", href: "#dryfit-termica" },
     { name: "Regatas", href: "#regatas" },
     { name: "Bermudas", href: "#shorts" },
     { name: "Ofertas", href: "#ofertas" },
     { name: "Catálogo", href: "https://wa.me/c/553499890980" },
   ];
+
 
   return (
     <nav

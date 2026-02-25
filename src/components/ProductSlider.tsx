@@ -15,6 +15,7 @@ interface ProductSliderProps {
   products: Product[];
   price?: string;
   kitPrice?: string;
+  kitItems?: number;
 }
 
 const ProductSlider: React.FC<ProductSliderProps> = ({
@@ -25,6 +26,7 @@ const ProductSlider: React.FC<ProductSliderProps> = ({
   products,
   price,
   kitPrice,
+  kitItems = 3,
 }) => {
   return (
     <section
@@ -85,7 +87,7 @@ const ProductSlider: React.FC<ProductSliderProps> = ({
         {(price || kitPrice) && (
           <div className="mx-auto mt-12 grid max-w-4xl grid-cols-1 gap-6 md:grid-cols-2">
             {price && (
-              <div className="flex flex-col items-center rounded-3xl border border-slate-200 bg-slate-50 p-6 text-center sm:p-8 dark:border-slate-800 dark:bg-slate-900/50">
+              <div className={`flex flex-col items-center rounded-3xl border border-slate-200 bg-slate-50 p-6 text-center sm:p-8 dark:border-slate-800 dark:bg-slate-900/50 ${!kitPrice ? 'md:col-span-2' : ''}`}>
                 <span className="mb-1 font-medium text-slate-500 dark:text-slate-400">
                   Unidade
                 </span>
@@ -100,18 +102,19 @@ const ProductSlider: React.FC<ProductSliderProps> = ({
                   Melhor Oferta
                 </span>
                 <span className="mb-1 font-medium text-cyan-700 dark:text-cyan-300">
-                  Kit com 3 unidades
+                  Kit com {kitItems} unidades
                 </span>
                 <span className="text-3xl font-bold text-cyan-600 dark:text-cyan-400">
                   R$ {kitPrice}
                 </span>
                 <span className="mt-1 text-sm text-cyan-500/70">
-                  (R$ {(parseFloat(kitPrice) / 3).toFixed(2)} cada)
+                  (R$ {(parseFloat(kitPrice.replace(',', '.')) / kitItems).toFixed(2).replace('.', ',')} cada)
                 </span>
               </div>
             )}
           </div>
         )}
+
       </div>
     </section>
   );

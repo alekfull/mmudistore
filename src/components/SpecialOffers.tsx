@@ -5,32 +5,33 @@ const SpecialOffers: React.FC = () => {
   const offers = [
     {
       id: 1,
-      name: "Combo Treino Hardcore",
-      description: "3 Camisetas Dryfit + 2 Bermudas",
-      oldPrice: "300,00",
-      newPrice: "249,90",
-      badge: "Bestseller",
+      name: "Pack Econômico 1",
+      description: "3 Bermudas Dryfit",
+      oldPrice: "135,00",
+      newPrice: "100,00",
+      badge: "Mais Vendido",
       color: "from-cyan-500 to-blue-600",
     },
     {
       id: 2,
-      name: "Kit Pro Runner",
-      description: "2 Regatas Dryfit + 1 Bermuda Térmica",
-      oldPrice: "210,00",
-      newPrice: "179,90",
+      name: "Pack Econômico 2",
+      description: "4 Camisetas ou Regatas Dryfit",
+      oldPrice: "120,00",
+      newPrice: "100,00",
       badge: "Economia",
       color: "from-emerald-500 to-teal-600",
     },
     {
       id: 3,
-      name: "Pack Econômico",
-      description: "5 Camisetas Básicas Dryfit",
-      oldPrice: "300,00",
-      newPrice: "220,00",
-      badge: "Imperdível",
+      name: "Kit Premium",
+      description: "3 Camisetas ou Regatas Premium",
+      oldPrice: "180,00",
+      newPrice: "150,00",
+      badge: "Qualidade",
       color: "from-orange-500 to-red-600",
     },
   ];
+
 
   return (
     <section

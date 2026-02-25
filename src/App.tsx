@@ -15,6 +15,7 @@ import {
   shortsImportadoProducts,
   shortsPremiumProducts,
   shortsTactelProducts,
+  dryfitTermicaProducts,
 } from "./data";
 import { useTheme } from "./hooks/useTheme";
 
@@ -76,8 +77,9 @@ function App() {
           subtitle="Alta performance com tecido premium, acabamento superior e design exclusivo."
           badge="Linha Standard"
           products={dryfitProducts}
-          price="60,00"
-          kitPrice="150,00"
+          price="30,00"
+          kitPrice="100,00"
+          kitItems={4}
         />
 
         <ProductSlider
@@ -86,8 +88,20 @@ function App() {
           subtitle="Qualidade excepcional com tecnologia de ponta para máximo desempenho."
           badge="Linha Premium"
           products={dryfitPremiumProducts}
-          price="70,00"
-          kitPrice="180,00"
+          price="60,00"
+          kitPrice="150,00"
+          kitItems={3}
+        />
+
+        <ProductSlider
+          id="dryfit-termica"
+          title="Camisetas Dryfit Térmicas"
+          subtitle="Conforto térmico absoluto e tecnologia para regulação de temperatura."
+          badge="Linha Térmica"
+          products={dryfitTermicaProducts}
+          price="60,00"
+          kitPrice="150,00"
+          kitItems={3}
         />
 
         {/* Regatas Sections */}
@@ -97,8 +111,9 @@ function App() {
           subtitle="Ideais para treinos intensos, oferecendo máxima liberdade de movimento."
           badge="Linha Standard"
           products={regatasProducts}
-          price="50,00"
-          kitPrice="130,00"
+          price="30,00"
+          kitPrice="100,00"
+          kitItems={4}
         />
 
         <ProductSlider
@@ -109,6 +124,7 @@ function App() {
           products={regatasPremiumProducts}
           price="60,00"
           kitPrice="150,00"
+          kitItems={3}
         />
 
         {/* Shorts Sections */}
@@ -118,8 +134,9 @@ function App() {
           subtitle="Bermudas Dry-Fit com tecido respirável e ajuste perfeito."
           badge="Destaque"
           products={shortsProducts}
-          price="60,00"
-          kitPrice="150,00"
+          price="45,00"
+          kitPrice="100,00"
+          kitItems={3}
         />
 
         <ProductSlider
@@ -129,7 +146,8 @@ function App() {
           badge="Performance"
           products={shortsDuploProducts}
           price="70,00"
-          kitPrice="180,00"
+          kitPrice="120,00"
+          kitItems={2}
         />
 
         <ProductSlider
@@ -138,8 +156,8 @@ function App() {
           subtitle="Qualidade internacional com design exclusivo e durabilidade."
           badge="Importado"
           products={shortsImportadoProducts}
-          price="85,00"
-          kitPrice="230,00"
+          price="80,00"
+          kitPrice=""
         />
 
         <ProductSlider
@@ -148,8 +166,9 @@ function App() {
           subtitle="O ápice do conforto e estilo para suas atividades físicas."
           badge="Linha Premium"
           products={shortsPremiumProducts}
-          price="75,00"
-          kitPrice="200,00"
+          price="60,00"
+          kitPrice="165,00"
+          kitItems={3}
         />
 
         <ProductSlider
@@ -158,9 +177,11 @@ function App() {
           subtitle="Tecido leve e secagem ultra-rápida, perfeito para qualquer modalidade."
           badge="Frescão"
           products={shortsTactelProducts}
-          price="55,00"
-          kitPrice="140,00"
+          price="45,00"
+          kitPrice="125,00"
+          kitItems={3}
         />
+
 
         {/* Special Offers */}
         <SpecialOffers />

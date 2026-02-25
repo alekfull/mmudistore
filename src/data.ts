@@ -114,3 +114,13 @@ export const shortsTactelProducts = [
   { id: 8, image: "/images/products/shortstactel/IMG-20260219-WA0230.jpg" },
 ];
 
+export const dryfitTermicaProducts = [
+  { id: 1, image: "/images/products/dryfittermica/IMG-20260219-WA0178.jpg" },
+  { id: 2, image: "/images/products/dryfittermica/IMG-20260219-WA0180.jpg" },
+  { id: 3, image: "/images/products/dryfittermica/IMG-20260219-WA0182.jpg" },
+  { id: 4, image: "/images/products/dryfittermica/IMG-20260219-WA0184.jpg" },
+  { id: 5, image: "/images/products/dryfittermica/IMG-20260219-WA0186.jpg" },
+  { id: 6, image: "/images/products/dryfittermica/IMG-20260219-WA0188.jpg" },
+];
+
+
