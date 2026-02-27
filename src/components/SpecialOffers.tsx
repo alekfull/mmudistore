@@ -9,7 +9,7 @@ const SpecialOffers: React.FC = () => {
       description: "3 Bermudas Dryfit",
       oldPrice: "135,00",
       newPrice: "100,00",
-      image: "/images/products/shorts/IMG-20260219-WA0005.jpg",
+      image: "/images/products/shorts/IMG-20260219-WA0012.jpg",
       badge: "Mais Vendido",
       color: "from-cyan-500 to-blue-600",
     },
@@ -19,7 +19,7 @@ const SpecialOffers: React.FC = () => {
       description: "4 Camisetas ou Regatas Dryfit",
       oldPrice: "120,00",
       newPrice: "100,00",
-      image: "/images/products/dryfit/IMG-20260219-WA0108.jpg",
+      image: "/images/products/dryfit/IMG-20260219-WA0112.jpg",
       badge: "Economia",
       color: "from-emerald-500 to-teal-600",
     },
@@ -29,7 +29,7 @@ const SpecialOffers: React.FC = () => {
       description: "3 Camisetas ou Regatas Premium",
       oldPrice: "180,00",
       newPrice: "150,00",
-      image: "/images/products/dryfitpremium/IMG-20260219-WA0140.jpg",
+      image: "/images/products/dryfitpremium/IMG-20260219-WA0162.jpg",
       badge: "Qualidade",
       color: "from-orange-500 to-red-600",
     },
@@ -72,7 +72,7 @@ const SpecialOffers: React.FC = () => {
                 <img
                   src={offer.image}
                   alt={offer.name}
-                  className="animate-pulse-slow h-full w-full scale-110 object-cover opacity-50 transition-transform duration-1000 group-hover:scale-125"
+                  className="h-full w-full scale-110 object-cover opacity-50 transition-transform duration-1000 group-hover:scale-125"
                 />
               </div>
 
