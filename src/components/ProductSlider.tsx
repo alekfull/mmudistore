@@ -1,4 +1,5 @@
 import React from "react";
+import { MdShoppingBag } from "react-icons/md";
 import { Autoplay, Navigation, Pagination } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 
@@ -94,6 +95,13 @@ const ProductSlider: React.FC<ProductSliderProps> = ({
                 <span className="text-3xl font-bold text-slate-900 dark:text-white">
                   R$ {price}
                 </span>
+                <a
+                  href="https://wa.me/5534999890980"
+                  className="mt-8 flex w-full cursor-pointer items-center justify-center gap-2 rounded-2xl bg-cyan-500 py-4 font-bold text-white shadow-xl shadow-cyan-500/30 transition-all hover:scale-[1.05] hover:bg-cyan-600 active:scale-95"
+                >
+                  <MdShoppingBag size={24} />
+                  Compre agora
+                </a>
               </div>
             )}
             {kitPrice && (
@@ -110,6 +118,13 @@ const ProductSlider: React.FC<ProductSliderProps> = ({
                 <span className="mt-1 text-sm text-cyan-500/70">
                   (R$ {(parseFloat(kitPrice.replace(',', '.')) / kitItems).toFixed(2).replace('.', ',')} cada)
                 </span>
+                <a
+                  href="https://wa.me/5534999890980"
+                  className="mt-8 flex w-full cursor-pointer items-center justify-center gap-2 rounded-2xl bg-cyan-500 py-4 font-bold text-white shadow-xl shadow-cyan-500/30 transition-all hover:scale-[1.05] hover:bg-cyan-600 active:scale-95"
+                >
+                  <MdShoppingBag size={24} />
+                  Compre agora
+                </a>
               </div>
             )}
           </div>
