@@ -96,7 +96,9 @@ const ProductSlider: React.FC<ProductSliderProps> = ({
                   R$ {price}
                 </span>
                 <a
-                  href="https://wa.me/5534999890980"
+                  href={`https://wa.me/5534999890980?text=${encodeURIComponent(`Olá! Tenho interesse em uma unidade do produto: ${title} (Preço: R$ ${price})`)}`}
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="mt-8 flex w-full cursor-pointer items-center justify-center gap-2 rounded-2xl bg-cyan-500 py-4 font-bold text-white shadow-xl shadow-cyan-500/30 transition-all hover:scale-[1.05] hover:bg-cyan-600 active:scale-95"
                 >
                   <MdShoppingBag size={24} />
@@ -119,7 +121,9 @@ const ProductSlider: React.FC<ProductSliderProps> = ({
                   (R$ {(parseFloat(kitPrice.replace(',', '.')) / kitItems).toFixed(2).replace('.', ',')} cada)
                 </span>
                 <a
-                  href="https://wa.me/5534999890980"
+                  href={`https://wa.me/5534999890980?text=${encodeURIComponent(`Olá! Tenho interesse no kit de ${kitItems} unidades do produto: ${title} (Preço total: R$ ${kitPrice})`)}`}
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="mt-8 flex w-full cursor-pointer items-center justify-center gap-2 rounded-2xl bg-cyan-500 py-4 font-bold text-white shadow-xl shadow-cyan-500/30 transition-all hover:scale-[1.05] hover:bg-cyan-600 active:scale-95"
                 >
                   <MdShoppingBag size={24} />
