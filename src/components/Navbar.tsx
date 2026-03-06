@@ -84,7 +84,7 @@ const Navbar: React.FC<NavbarProps> = ({ theme, toggleTheme }) => {
             )}
           </button>
           <a
-            href="https://wa.me/5534999890980"
+            href={`https://wa.me/5534999890980?text=${encodeURIComponent("Olá! Gostaria de saber mais sobre os produtos da MM Udistore.")}`}
             target="_blank"
             rel="noopener noreferrer"
             className="rounded-full bg-cyan-500 px-6 py-2.5 font-semibold text-white shadow-md transition-all hover:bg-cyan-600 hover:shadow-cyan-500/30"
@@ -131,7 +131,7 @@ const Navbar: React.FC<NavbarProps> = ({ theme, toggleTheme }) => {
           ))}
 
           <a
-            href="https://wa.me/5534999890980"
+            href={`https://wa.me/5534999890980?text=${encodeURIComponent("Olá! Gostaria de saber mais sobre os produtos da MM Udistore.")}`}
             target="_blank"
             rel="noopener noreferrer"
             onClick={() => setIsOpen(false)}

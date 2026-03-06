@@ -194,7 +194,7 @@ function App() {
 
       {/* Floating Contact Button */}
       <a
-        href="https://wa.me/5534999890980"
+        href={`https://wa.me/5534999890980?text=${encodeURIComponent("Olá! Gostaria de saber mais sobre os produtos da MM Udistore.")}`}
         target="_blank"
         rel="noopener noreferrer"
         className="group animate-bounce-slow fixed right-4 bottom-4 z-[60] flex h-14 w-14 items-center justify-center rounded-full bg-emerald-500 text-white shadow-2xl shadow-emerald-500/40 transition-all hover:scale-110 hover:bg-emerald-600 sm:right-8 sm:bottom-8 sm:h-16 sm:w-16"

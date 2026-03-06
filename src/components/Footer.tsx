@@ -48,7 +48,7 @@ const Footer: React.FC = () => {
                 <FaFacebook size={20} />
               </a>
               <a
-                href="https://wa.me/5534999890980"
+                href={`https://wa.me/5534999890980?text=${encodeURIComponent("Olá! Gostaria de saber mais sobre os produtos da MM Udistore.")}`}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="rounded-2xl border border-slate-200 bg-white p-3 text-slate-600 transition-all hover:border-emerald-500 hover:text-emerald-500 dark:border-slate-800 dark:bg-slate-900 dark:text-slate-300"
@@ -148,7 +148,7 @@ const Footer: React.FC = () => {
               </li>
               <li className="flex items-center gap-3">
                 <a
-                  href="https://wa.me/5534999890980"
+                  href={`https://wa.me/5534999890980?text=${encodeURIComponent("Olá! Gostaria de saber mais sobre os produtos da MM Udistore.")}`}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center gap-3 transition-colors hover:text-emerald-500"
