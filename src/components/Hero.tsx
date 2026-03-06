@@ -7,9 +7,9 @@ const Hero: React.FC = () => {
       <div className="absolute inset-0 z-0">
         <div className="absolute inset-0 z-10 bg-gradient-to-r from-slate-950 via-slate-950/70 to-transparent" />
         <img
-          src="/images/products/dryfit/IMG-20260219-WA0110.jpg"
+          src="/images/products/dryfit/IMG-20260219-WA0120.jpg"
           alt="Hero Background"
-          className="animate-pulse-slow h-full w-full scale-110 object-cover opacity-40"
+          className="h-full w-full scale-110 object-cover opacity-40"
         />
       </div>
 
