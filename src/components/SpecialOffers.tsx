@@ -1,5 +1,5 @@
 import React from "react";
-import { MdLocalOffer, MdShoppingBag } from "react-icons/md";
+import { MdLocalOffer } from "react-icons/md";
 
 const SpecialOffers: React.FC = () => {
   const offers = [
