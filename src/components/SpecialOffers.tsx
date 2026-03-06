@@ -105,8 +105,7 @@ const SpecialOffers: React.FC = () => {
                   href={offer.href}
                   className="mt-8 flex w-full cursor-pointer items-center justify-center gap-2 rounded-2xl bg-cyan-500 py-4 font-bold text-white shadow-xl shadow-cyan-500/30 transition-all hover:scale-[1.05] hover:bg-cyan-600 active:scale-95"
                 >
-                  <MdShoppingBag size={24} />
-                  Quero este Kit
+                  Ver opções
                 </a>
               </div>
 
