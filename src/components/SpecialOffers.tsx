@@ -12,6 +12,7 @@ const SpecialOffers: React.FC = () => {
       image: "/images/products/shorts/IMG-20260219-WA0012.jpg",
       badge: "Mais Vendido",
       color: "from-cyan-500 to-blue-600",
+      href: "#shorts"
     },
     {
       id: 2,
@@ -22,6 +23,7 @@ const SpecialOffers: React.FC = () => {
       image: "/images/products/dryfit/IMG-20260219-WA0112.jpg",
       badge: "Economia",
       color: "from-emerald-500 to-teal-600",
+      href: "#dryfit"
     },
     {
       id: 3,
@@ -32,6 +34,7 @@ const SpecialOffers: React.FC = () => {
       image: "/images/products/dryfitpremium/IMG-20260219-WA0162.jpg",
       badge: "Qualidade",
       color: "from-orange-500 to-red-600",
+      href: "#dryfit-premium"
     },
   ];
 
@@ -99,9 +102,7 @@ const SpecialOffers: React.FC = () => {
                 </div>
 
                 <a
-                  href="https://wa.me/5534999890980"
-                  target="_blank"
-                  rel="noopener noreferrer"
+                  href={offer.href}
                   className="mt-8 flex w-full cursor-pointer items-center justify-center gap-2 rounded-2xl bg-cyan-500 py-4 font-bold text-white shadow-xl shadow-cyan-500/30 transition-all hover:scale-[1.05] hover:bg-cyan-600 active:scale-95"
                 >
                   <MdShoppingBag size={24} />
