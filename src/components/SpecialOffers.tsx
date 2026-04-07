@@ -20,7 +20,7 @@ const SpecialOffers: React.FC = () => {
       description: "4 Camisetas ou Regatas Dryfit",
       oldPrice: "120,00",
       newPrice: "100,00",
-      image: "/images/products/dryfit/IMG-20260219-WA0112.jpg",
+      image: "/images/products/dryfit/IMG-20260219-WA0127.jpeg",
       badge: "Economia",
       color: "from-emerald-500 to-teal-600",
       href: "#dryfit"
@@ -31,7 +31,7 @@ const SpecialOffers: React.FC = () => {
       description: "3 Camisetas ou Regatas Premium",
       oldPrice: "180,00",
       newPrice: "150,00",
-      image: "/images/products/dryfitpremium/IMG-20260219-WA0162.jpg",
+      image: "/images/products/dryfitpremium/IMG-20260219-WA0132.png",
       badge: "Qualidade",
       color: "from-orange-500 to-red-600",
       href: "#dryfit-premium"
