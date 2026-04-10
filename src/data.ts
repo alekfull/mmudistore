@@ -1,13 +1,11 @@
 export const dryfitProducts = [
-  { id: 1, image: "/images/products/dryfit/IMG-20260219-WA0108.jpg" },
-  { id: 2, image: "/images/products/dryfit/IMG-20260219-WA0110.jpg" },
-  { id: 3, image: "/images/products/dryfit/IMG-20260219-WA0112.jpg" },
-  { id: 4, image: "/images/products/dryfit/IMG-20260219-WA0114.jpg" },
-  { id: 5, image: "/images/products/dryfit/IMG-20260219-WA0116.jpg" },
-  { id: 6, image: "/images/products/dryfit/IMG-20260219-WA0118.jpg" },
-  { id: 7, image: "/images/products/dryfit/IMG-20260219-WA0120.jpg" },
-  { id: 8, image: "/images/products/dryfit/IMG-20260219-WA0136.jpg" },
-  { id: 9, image: "/images/products/dryfit/IMG-20260219-WA0138.jpg" },
+  { id: 1, image: "/images/products/dryfit/IMG-20260219-WA0126.jpeg" },
+  { id: 2, image: "/images/products/dryfit/IMG-20260219-WA0127.jpeg" },
+  { id: 3, image: "/images/products/dryfit/IMG-20260219-WA0128.jpeg" },
+  { id: 4, image: "/images/products/dryfit/IMG-20260219-WA0130.jpeg" },
+  { id: 5, image: "/images/products/dryfit/IMG-20260219-WA0131.jpeg" },
+  { id: 6, image: "/images/products/dryfit/IMG-20260219-WA0136.jpg" },
+  { id: 7, image: "/images/products/dryfit/IMG-20260219-WA0138.jpg" },
 ];
 
 export const dryfitPremiumProducts = [
@@ -20,23 +18,20 @@ export const dryfitPremiumProducts = [
   { id: 7, image: "/images/products/dryfitpremium/IMG-20260219-WA0152.jpg" },
   { id: 8, image: "/images/products/dryfitpremium/IMG-20260219-WA0154.jpg" },
   { id: 9, image: "/images/products/dryfitpremium/IMG-20260219-WA0156.jpg" },
-  { id: 10, image: "/images/products/dryfitpremium/IMG-20260219-WA0158.jpg" },
-  { id: 11, image: "/images/products/dryfitpremium/IMG-20260219-WA0160.jpg" },
-  { id: 12, image: "/images/products/dryfitpremium/IMG-20260219-WA0162.jpg" },
-  { id: 13, image: "/images/products/dryfitpremium/IMG-20260219-WA0164.jpg" },
-  { id: 14, image: "/images/products/dryfitpremium/IMG-20260219-WA0166.jpg" },
-  { id: 15, image: "/images/products/dryfitpremium/IMG-20260219-WA0168.jpg" },
+  { id: 10, image: "/images/products/dryfitpremium/IMG-20260219-WA0130.png" },
+  { id: 11, image: "/images/products/dryfitpremium/IMG-20260219-WA0131.png" },
+  { id: 12, image: "/images/products/dryfitpremium/IMG-20260219-WA0132.png" },
+  { id: 13, image: "/images/products/dryfitpremium/IMG-20260219-WA0133.png" },
+  { id: 14, image: "/images/products/dryfitpremium/IMG-20260219-WA0134.jpeg" },
 ];
 
 
 export const regatasProducts = [
-  { id: 1, image: "/images/products/regatas/IMG-20260219-WA0122.jpg" },
-  { id: 2, image: "/images/products/regatas/IMG-20260219-WA0124.jpg" },
-  { id: 3, image: "/images/products/regatas/IMG-20260219-WA0126.jpg" },
-  { id: 4, image: "/images/products/regatas/IMG-20260219-WA0128.jpg" },
-  { id: 5, image: "/images/products/regatas/IMG-20260219-WA0130.jpg" },
-  { id: 6, image: "/images/products/regatas/IMG-20260219-WA0132.jpg" },
-  { id: 7, image: "/images/products/regatas/IMG-20260219-WA0134.jpg" },
+  { id: 1, image: "/images/products/regatas/IMG-20260219-WA0130.png" },
+  { id: 2, image: "/images/products/regatas/IMG-20260219-WA0131.png" },
+  { id: 3, image: "/images/products/regatas/IMG-20260219-WA0132.png" },
+  { id: 4, image: "/images/products/regatas/IMG-20260219-WA0133.png" },
+  { id: 5, image: "/images/products/regatas/IMG-20260219-WA0134.jpg" },
 ];
 
 export const regatasPremiumProducts = [
