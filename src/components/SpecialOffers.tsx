@@ -9,7 +9,7 @@ const SpecialOffers: React.FC = () => {
       description: "3 Bermudas Dryfit",
       oldPrice: "135,00",
       newPrice: "100,00",
-      image: "/images/products/shorts/IMG-20260219-WA0012.jpg",
+      image: "/images/products/shorts/IMG-20260219-WA0006.jpeg",
       badge: "Mais Vendido",
       color: "from-cyan-500 to-blue-600",
       href: "#shorts"

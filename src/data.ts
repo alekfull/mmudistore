@@ -9,20 +9,17 @@ export const dryfitProducts = [
 ];
 
 export const dryfitPremiumProducts = [
-  { id: 1, image: "/images/products/dryfitpremium/IMG-20260219-WA0140.jpg" },
-  { id: 2, image: "/images/products/dryfitpremium/IMG-20260219-WA0142.jpg" },
-  { id: 3, image: "/images/products/dryfitpremium/IMG-20260219-WA0144.jpg" },
-  { id: 4, image: "/images/products/dryfitpremium/IMG-20260219-WA0146.jpg" },
-  { id: 5, image: "/images/products/dryfitpremium/IMG-20260219-WA0148.jpg" },
-  { id: 6, image: "/images/products/dryfitpremium/IMG-20260219-WA0150.jpg" },
-  { id: 7, image: "/images/products/dryfitpremium/IMG-20260219-WA0152.jpg" },
-  { id: 8, image: "/images/products/dryfitpremium/IMG-20260219-WA0154.jpg" },
-  { id: 9, image: "/images/products/dryfitpremium/IMG-20260219-WA0156.jpg" },
-  { id: 10, image: "/images/products/dryfitpremium/IMG-20260219-WA0130.png" },
-  { id: 11, image: "/images/products/dryfitpremium/IMG-20260219-WA0131.png" },
-  { id: 12, image: "/images/products/dryfitpremium/IMG-20260219-WA0132.png" },
-  { id: 13, image: "/images/products/dryfitpremium/IMG-20260219-WA0133.png" },
-  { id: 14, image: "/images/products/dryfitpremium/IMG-20260219-WA0134.jpeg" },
+  { id: 1, image: "/images/products/dryfitpremium/IMG-20260219-WA0130.png" },
+  { id: 2, image: "/images/products/dryfitpremium/IMG-20260219-WA0131.png" },
+  { id: 3, image: "/images/products/dryfitpremium/IMG-20260219-WA0132.png" },
+  { id: 4, image: "/images/products/dryfitpremium/IMG-20260219-WA0133.jpeg" },
+  { id: 5, image: "/images/products/dryfitpremium/IMG-20260219-WA0134.jpeg" },
+  { id: 6, image: "/images/products/dryfitpremium/IMG-20260219-WA0135.jpeg" },
+  { id: 7, image: "/images/products/dryfitpremium/IMG-20260219-WA0136.jpeg" },
+  { id: 8, image: "/images/products/dryfitpremium/IMG-20260219-WA0137.jpeg" },
+  { id: 9, image: "/images/products/dryfitpremium/IMG-20260219-WA0138.jpeg" },
+  { id: 10, image: "/images/products/dryfitpremium/IMG-20260219-WA0139.jpeg" },
+  { id: 11, image: "/images/products/dryfitpremium/IMG-20260219-WA0140.jpeg" },
 ];
 
 
@@ -35,30 +32,27 @@ export const regatasProducts = [
 ];
 
 export const regatasPremiumProducts = [
-  { id: 1, image: "/images/products/regataspremium/IMG-20260219-WA0170.jpg" },
-  { id: 2, image: "/images/products/regataspremium/IMG-20260219-WA0172.jpg" },
-  { id: 3, image: "/images/products/regataspremium/IMG-20260219-WA0174.jpg" },
-  { id: 4, image: "/images/products/regataspremium/IMG-20260219-WA0176.jpg" },
+  { id: 1, image: "/images/products/regataspremium/IMG-20260219-WA0170.png" },
+  { id: 2, image: "/images/products/regataspremium/IMG-20260219-WA0171.jpeg" },
+  { id: 3, image: "/images/products/regataspremium/IMG-20260219-WA0172.jpeg" },
+  { id: 4, image: "/images/products/regataspremium/IMG-20260219-WA0173.jpeg" },
 ];
 
 export const shortsProducts = [
-  { id: 1, image: "/images/products/shorts/IMG-20260219-WA0005.jpg" },
-  { id: 2, image: "/images/products/shorts/IMG-20260219-WA0008.jpg" },
-  { id: 3, image: "/images/products/shorts/IMG-20260219-WA0012.jpg" },
-  { id: 4, image: "/images/products/shorts/IMG-20260219-WA0094.jpg" },
-  { id: 5, image: "/images/products/shorts/IMG-20260219-WA0096.jpg" },
-  { id: 6, image: "/images/products/shorts/IMG-20260219-WA0098.jpg" },
-  { id: 7, image: "/images/products/shorts/IMG-20260219-WA0100.jpg" },
-  { id: 8, image: "/images/products/shorts/IMG-20260219-WA0102.jpg" },
-  { id: 9, image: "/images/products/shorts/IMG-20260219-WA0104.jpg" },
-  { id: 10, image: "/images/products/shorts/IMG-20260219-WA0106.jpg" },
+  { id: 1, image: "/images/products/shorts/IMG-20260219-WA0001.jpeg" },
+  { id: 2, image: "/images/products/shorts/IMG-20260219-WA0002.jpeg" },
+  { id: 3, image: "/images/products/shorts/IMG-20260219-WA0003.jpeg" },
+  { id: 4, image: "/images/products/shorts/IMG-20260219-WA0004.jpeg" },
+  { id: 5, image: "/images/products/shorts/IMG-20260219-WA0005.jpeg" },
+  { id: 6, image: "/images/products/shorts/IMG-20260219-WA0006.jpeg" },
+  { id: 7, image: "/images/products/shorts/IMG-20260219-WA0007.jpeg" },
 ];
 
 export const shortsDuploProducts = [
-  { id: 1, image: "/images/products/shortsduplo/IMG-20260219-WA0210.jpg" },
-  { id: 2, image: "/images/products/shortsduplo/IMG-20260219-WA0212.jpg" },
-  { id: 3, image: "/images/products/shortsduplo/IMG-20260219-WA0214.jpg" },
-  { id: 4, image: "/images/products/shortsduplo/IMG-20260219-WA0216.jpg" },
+  { id: 1, image: "/images/products/shortsduplo/IMG-20260219-WA0210.jpeg" },
+  { id: 2, image: "/images/products/shortsduplo/IMG-20260219-WA0211.jpeg" },
+  { id: 3, image: "/images/products/shortsduplo/IMG-20260219-WA0212.jpeg" },
+  { id: 4, image: "/images/products/shortsduplo/IMG-20260219-WA0213.jpeg" },
 ];
 
 export const shortsImportadoProducts = [
@@ -81,36 +75,31 @@ export const shortsImportadoProducts = [
 
 export const shortsPremiumProducts = [
   { id: 1, image: "/images/products/shortspremium/IMG-20260219-WA0060.jpg" },
-  { id: 2, image: "/images/products/shortspremium/IMG-20260219-WA0190.jpg" },
-  { id: 3, image: "/images/products/shortspremium/IMG-20260219-WA0192.jpg" },
-  { id: 4, image: "/images/products/shortspremium/IMG-20260219-WA0194.jpg" },
-  { id: 5, image: "/images/products/shortspremium/IMG-20260219-WA0196.jpg" },
-  { id: 6, image: "/images/products/shortspremium/IMG-20260219-WA0198.jpg" },
-  { id: 7, image: "/images/products/shortspremium/IMG-20260219-WA0200.jpg" },
-  { id: 8, image: "/images/products/shortspremium/IMG-20260219-WA0202.jpg" },
-  { id: 9, image: "/images/products/shortspremium/IMG-20260219-WA0204.jpg" },
-  { id: 10, image: "/images/products/shortspremium/IMG-20260219-WA0206.jpg" },
-  { id: 11, image: "/images/products/shortspremium/IMG-20260219-WA0208.jpg" },
+  { id: 2, image: "/images/products/shortspremium/IMG-20260219-WA0061.jpg" },
+  { id: 3, image: "/images/products/shortspremium/IMG-20260219-WA0062.jpg" },
+  { id: 4, image: "/images/products/shortspremium/IMG-20260219-WA0063.jpg" },
+  { id: 5, image: "/images/products/shortspremium/IMG-20260219-WA0064.jpg" },
+  { id: 6, image: "/images/products/shortspremium/IMG-20260219-WA0065.jpg" },
+  { id: 7, image: "/images/products/shortspremium/IMG-20260219-WA0066.jpeg" },
+  { id: 8, image: "/images/products/shortspremium/IMG-20260219-WA0067.jpeg" },
+  { id: 9, image: "/images/products/shortspremium/IMG-20260219-WA0068.jpeg" },
+  { id: 10, image: "/images/products/shortspremium/IMG-20260219-WA0069.jpeg" },
 ];
 
 export const shortsTactelProducts = [
-  { id: 1, image: "/images/products/shortstactel/IMG-20260219-WA0076.jpg" },
-  { id: 2, image: "/images/products/shortstactel/IMG-20260219-WA0218.jpg" },
-  { id: 3, image: "/images/products/shortstactel/IMG-20260219-WA0220.jpg" },
-  { id: 4, image: "/images/products/shortstactel/IMG-20260219-WA0222.jpg" },
-  { id: 5, image: "/images/products/shortstactel/IMG-20260219-WA0224.jpg" },
-  { id: 6, image: "/images/products/shortstactel/IMG-20260219-WA0226.jpg" },
-  { id: 7, image: "/images/products/shortstactel/IMG-20260219-WA0228.jpg" },
-  { id: 8, image: "/images/products/shortstactel/IMG-20260219-WA0230.jpg" },
+  { id: 1, image: "/images/products/shortstactel/IMG-20260219-WA0076.jpeg" },
+  { id: 2, image: "/images/products/shortstactel/IMG-20260219-WA0077.jpeg" },
+  { id: 3, image: "/images/products/shortstactel/IMG-20260219-WA0078.jpeg" },
+  { id: 4, image: "/images/products/shortstactel/IMG-20260219-WA0079.jpeg" },
+  { id: 5, image: "/images/products/shortstactel/IMG-20260219-WA0080.jpeg" },
 ];
 
 export const dryfitTermicaProducts = [
-  { id: 1, image: "/images/products/dryfittermica/IMG-20260219-WA0178.jpg" },
-  { id: 2, image: "/images/products/dryfittermica/IMG-20260219-WA0180.jpg" },
-  { id: 3, image: "/images/products/dryfittermica/IMG-20260219-WA0182.jpg" },
-  { id: 4, image: "/images/products/dryfittermica/IMG-20260219-WA0184.jpg" },
-  { id: 5, image: "/images/products/dryfittermica/IMG-20260219-WA0186.jpg" },
-  { id: 6, image: "/images/products/dryfittermica/IMG-20260219-WA0188.jpg" },
+  { id: 1, image: "/images/products/dryfittermica/IMG-20260219-WA0189.jpeg" },
+  { id: 2, image: "/images/products/dryfittermica/IMG-20260219-WA0190.jpeg" },
+  { id: 3, image: "/images/products/dryfittermica/IMG-20260219-WA0191.jpeg" },
+  { id: 4, image: "/images/products/dryfittermica/IMG-20260219-WA0192.png" },
+  { id: 5, image: "/images/products/dryfittermica/IMG-20260219-WA0193.png" },
 ];
 
 
