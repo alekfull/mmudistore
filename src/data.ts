@@ -56,21 +56,13 @@ export const shortsDuploProducts = [
 ];
 
 export const shortsImportadoProducts = [
-  { id: 1, image: "/images/products/shortsimportado/IMG-20260219-WA0091.jpg" },
-  { id: 2, image: "/images/products/shortsimportado/IMG-20260219-WA0232.jpg" },
-  { id: 3, image: "/images/products/shortsimportado/IMG-20260219-WA0234.jpg" },
-  { id: 4, image: "/images/products/shortsimportado/IMG-20260219-WA0236.jpg" },
-  { id: 5, image: "/images/products/shortsimportado/IMG-20260219-WA0238.jpg" },
-  { id: 6, image: "/images/products/shortsimportado/IMG-20260219-WA0240.jpg" },
-  { id: 7, image: "/images/products/shortsimportado/IMG-20260219-WA0242.jpg" },
-  { id: 8, image: "/images/products/shortsimportado/IMG-20260219-WA0244.jpg" },
-  { id: 9, image: "/images/products/shortsimportado/IMG-20260219-WA0246.jpg" },
-  { id: 10, image: "/images/products/shortsimportado/IMG-20260219-WA0248.jpg" },
-  { id: 11, image: "/images/products/shortsimportado/IMG-20260219-WA0250.jpg" },
-  { id: 12, image: "/images/products/shortsimportado/IMG-20260219-WA0252.jpg" },
-  { id: 13, image: "/images/products/shortsimportado/IMG-20260219-WA0254.jpg" },
-  { id: 14, image: "/images/products/shortsimportado/IMG-20260219-WA0256.jpg" },
-  { id: 15, image: "/images/products/shortsimportado/IMG-20260219-WA0258.jpg" },
+  { id: 1, image: "/images/products/shortsimportado/IMG-20260219-WA0091.jpeg" },
+  { id: 2, image: "/images/products/shortsimportado/IMG-20260219-WA0092.jpeg" },
+  { id: 3, image: "/images/products/shortsimportado/IMG-20260219-WA0093.jpeg" },
+  { id: 4, image: "/images/products/shortsimportado/IMG-20260219-WA0094.jpeg" },
+  { id: 5, image: "/images/products/shortsimportado/IMG-20260219-WA0095.jpeg" },
+  { id: 6, image: "/images/products/shortsimportado/IMG-20260219-WA0096.jpeg" },
+  { id: 7, image: "/images/products/shortsimportado/IMG-20260219-WA0097.jpeg" },
 ];
 
 export const shortsPremiumProducts = [
